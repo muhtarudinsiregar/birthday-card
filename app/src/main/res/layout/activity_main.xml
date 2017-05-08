@@ -15,6 +15,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
         android:text="Happy Birthday World!" />
 
     <TextView
@@ -22,9 +25,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom = "true"
         android:layout_alignParentRight = "true"
-        android:text="Happy Birthday Lyla!"
-        tools:layout_editor_absoluteY="494dp"
-        tools:layout_editor_absoluteX="258dp" />
+        android:text="From, Lyla!"
+        android:textSize="36sp"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-light"
+        tools:layout_editor_absoluteY="461dp"
+        tools:layout_editor_absoluteX="209dp" />
 
 
 
