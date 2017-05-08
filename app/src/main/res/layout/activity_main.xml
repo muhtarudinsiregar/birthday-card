@@ -8,9 +8,10 @@
 
 
     <ImageView
-        android:src="@drawable/android"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/android" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -18,7 +19,9 @@
         android:textSize="36sp"
         android:fontFamily="sans-serif-light"
         android:textColor="@android:color/white"
-        android:text="Happy Birthday World!" />
+        android:text="Happy Birthday World!"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -29,8 +32,8 @@
         android:textSize="36sp"
         android:textColor="@android:color/white"
         android:fontFamily="sans-serif-light"
-        tools:layout_editor_absoluteY="461dp"
-        tools:layout_editor_absoluteX="209dp" />
+        tools:layout_editor_absoluteY="468dp"
+        tools:layout_editor_absoluteX="211dp" />
 
 
 
